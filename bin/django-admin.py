@@ -3,7 +3,6 @@
 import warnings
 
 from django.core import management
-
 try:
     from django.utils.deprecation import RemovedInDjango40Warning
 except ImportError:
